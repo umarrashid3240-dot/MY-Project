@@ -1,0 +1,7 @@
+
+STEPS FORMAKING THIS WEBSITES:
+1.ALL PACKAGES INSTALLING:
+   (' npm i ract-router-dom react-icons @heroicons/react @redux/toolkit axios gsap anime framer-motion react-animate-on-scroll countries-list daysjs formik yup three.js react-helmet react-image-gallery react-pagoination react-loading-skeleton react
+')
+
+2. INSIDE SRC FOLDER MAKE FOLDERS('REDUX,SCREENS,LAYOUTS,')

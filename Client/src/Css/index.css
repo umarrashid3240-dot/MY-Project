@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+     font-family:"Roboto", sans-serif;
+}
+.prod_image{
+     width:250px;
+     height:220px;
+}
