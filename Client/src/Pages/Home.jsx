@@ -7,18 +7,18 @@
 
 // // function Home() {
 // //   const images = [
-// //     "/images/shoes1.jpg",
-// //     "/images/shoes2.jpg",
-// //     "/images/shoes11.jpg",
-// //     "/images/shoes12.jpg",
-// //     "/images/shoes13.jpg",  
-// //     "/images/shoes14.jpg",
-// //     "/images/shoes15.jpg",
-// //     "/images/shoes16.jpg",
-// //     "/images/shoes17.jpg",
-// //     "/images/shoes18.jpg",
-// //      "/images/shoes19.jpg",
-// //       "/images/shoes20.jpg",
+// //     "/MY-Project/shoes1.jpg",
+// //     "/MY-Project/shoes2.jpg",
+// //     "/MY-Project/shoes11.jpg",
+// //     "/MY-Project/shoes12.jpg",
+// //     "/MY-Project/shoes13.jpg",  
+// //     "/MY-Project/shoes14.jpg",
+// //     "/MY-Project/shoes15.jpg",
+// //     "/MY-Project/shoes16.jpg",
+// //     "/MY-Project/shoes17.jpg",
+// //     "/MY-Project/shoes18.jpg",
+// //      "/MY-Project/shoes19.jpg",
+// //       "/MY-Project/shoes20.jpg",
       
 // //   ];
 
@@ -147,18 +147,18 @@
 
 // //   // Slider Images
 // //   const images = [
-// //     "/images/shoes1.jpg",
-// //     "/images/shoes2.jpg",
-// //     "/images/shoes11.jpg",
-// //     "/images/shoes12.jpg",
-// //     "/images/shoes13.jpg",
-// //     "/images/shoes14.jpg",
-// //     "/images/shoes15.jpg",
-// //     "/images/shoes16.jpg",
-// //     "/images/shoes17.jpg",
-// //     "/images/shoes18.jpg",
-// //     "/images/shoes19.jpg",
-// //     "/images/shoes20.jpg",
+// //     "/MY-Project/shoes1.jpg",
+// //     "/MY-Project/shoes2.jpg",
+// //     "/MY-Project/shoes11.jpg",
+// //     "/MY-Project/shoes12.jpg",
+// //     "/MY-Project/shoes13.jpg",
+// //     "/MY-Project/shoes14.jpg",
+// //     "/MY-Project/shoes15.jpg",
+// //     "/MY-Project/shoes16.jpg",
+// //     "/MY-Project/shoes17.jpg",
+// //     "/MY-Project/shoes18.jpg",
+// //     "/MY-Project/shoes19.jpg",
+// //     "/MY-Project/shoes20.jpg",
 // //   ];
 
 // //   const [currentIndex, setCurrentIndex] = useState(0);
@@ -272,18 +272,18 @@
 
 //   // Slider Images
 //   const images = [
-//     "/images/shoes1.jpg",
-//     "/images/shoes2.jpg",
-//     "/images/shoes11.jpg",
-//     "/images/shoes12.jpg",
-//     "/images/shoes13.jpg",
-//     "/images/shoes14.jpg",
-//     "/images/shoes15.jpg",
-//     "/images/shoes16.jpg",
-//     "/images/shoes17.jpg",
-//     "/images/shoes18.jpg",
-//     "/images/shoes19.jpg",
-//     "/images/shoes20.jpg",
+//     "/MY-Project/shoes1.jpg",
+//     "/MY-Project/shoes2.jpg",
+//     "/MY-Project/shoes11.jpg",
+//     "/MY-Project/shoes12.jpg",
+//     "/MY-Project/shoes13.jpg",
+//     "/MY-Project/shoes14.jpg",
+//     "/MY-Project/shoes15.jpg",
+//     "/MY-Project/shoes16.jpg",
+//     "/MY-Project/shoes17.jpg",
+//     "/MY-Project/shoes18.jpg",
+//     "/MY-Project/shoes19.jpg",
+//     "/MY-Project/shoes20.jpg",
 //   ];
 
 //   const [currentIndex, setCurrentIndex] = useState(0);
@@ -404,18 +404,18 @@ const Home = () => {
   const navigate = useNavigate();
 
   const images = [
-    "/images/shoes1.jpg",
-    "/images/shoes2.jpg",
-    "/images/shoes11.jpg",
-    "/images/shoes12.jpg",
-    "/images/shoes13.jpg",
-    "/images/shoes14.jpg",
-    "/images/shoes15.jpg",
-    "/images/shoes16.jpg",
-    "/images/shoes17.jpg",
-    "/images/shoes18.jpg",
-    "/images/shoes19.jpg",
-    "/images/shoes20.jpg",
+    "/MY-Project/shoes1.jpg",
+    "/MY-Project/shoes2.jpg",
+    "/MY-Project/shoes11.jpg",
+    "/MY-Project/shoes12.jpg",
+    "/MY-Project/shoes13.jpg",
+    "/MY-Project/shoes14.jpg",
+    "/MY-Project/shoes15.jpg",
+    "/MY-Project/shoes16.jpg",
+    "/MY-Project/shoes17.jpg", 
+    "/MY-Project/shoes18.jpg",
+    "/MY-Project/shoes19.jpg",
+    "/MY-Project/shoes20.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

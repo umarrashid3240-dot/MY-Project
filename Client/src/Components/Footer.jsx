@@ -6,7 +6,7 @@
 //   return (
 //     <footer
 //       className="relative bg-cover bg-center bg-no-repeat text-white"
-//       style={{ backgroundImage: "url('/images/cropped_shoes.jpg')" }}
+//       style={{ backgroundImage: "url('/MY-Project/cropped_shoes.jpg')" }}
 //     >
 
 //       <div className="absolute inset-0 bg-black bg-opacity-50 pointer-events-none"></div>
@@ -97,7 +97,7 @@ const Footer = () => {
   return (
     <footer
       className="relative bg-cover bg-center bg-no-repeat text-white"
-      style={{ backgroundImage: "url('/images/cropped_shoes.jpg')" }}
+      style={{ backgroundImage: "url('/MY-Project/cropped_shoes.jpg')" }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50 pointer-events-none"></div>
 

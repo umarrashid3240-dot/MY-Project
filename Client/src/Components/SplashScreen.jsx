@@ -4,7 +4,7 @@ const SplashScreen = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-white">
       <img
-        src="/images/green-shoes-logo.png"
+        src="/MY-Project/green-shoes-logo.png"
         alt="Aura Shoes Logo"
         className="w-40 h-40 mb-6 animate-pulse"
       />

@@ -12,18 +12,18 @@ const Women = () => {
 
   // 🖼️ Slider Images
   const images = [
-    "/images/W1.jpg",
-    "/images/W2.jpg",
-    "/images/W3.jpg",
-    "/images/W4.jpg",
-    "/images/W5.jpg",
-    "/images/W6.jpg",
-    "/images/W7.jpg",
-    "/images/W8.jpg",
-    "/images/W9.jpg",
-    "/images/W10.jpg",
-    "/images/W11.jpg",
-    "/images/W12.jpg",
+    "/MY-Project/W1.jpg",
+    "/MY-Project/W2.jpg",
+    "/MY-Project/W3.jpg",
+    "/MY-Project/W4.jpg",
+    "/MY-Project/W5.jpg",
+    "/MY-Project/W6.jpg",
+    "/MY-Project/W7.jpg",
+    "/MY-Project/W8.jpg",
+    "/MY-Project/W9.jpg",
+    "/MY-Project/W10.jpg",
+    "/MY-Project/W11.jpg",
+    "/MY-Project/W12.jpg",
   ];
 
   // 🔁 Slider Logic
