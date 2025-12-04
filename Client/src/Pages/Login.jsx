@@ -1,43 +1,46 @@
-import React from 'react'
+// Client/src/Pages/Login.jsx
+import React, { useState } from "react";
+import { login } from "../api/auth";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await login({ email, password });
+      localStorage.setItem("token", res.data.token); // JWT save
+      localStorage.setItem("user", JSON.stringify(res.data.user));
+      alert(res.data.msg);
+      navigate("/home"); // login ke baad redirect
+    } catch (err) {
+      alert(err.response.data.msg || "Login failed");
+    }
+  };
+
   return (
-    <div className='min-h-screen flex items-center justify-center bg-gray-100'>
-    <div className='bg-white shadow-lg rounded-2xl px-10 py-8 w-96'>
-      <h1 className='text-center text-3xl font-bold mb-4 text-blue-600' >Login 🔐</h1>
-      <form>
-        <div className='mb-5'>
-          <label className= ' block text-gray-700 text-sm font-semibold mb-2'>
-            E-mail
-          </label>
-          <input
-          type='email'
-          placeholder='Enter Your Email'
-          className='w-full px-4 py-2 border rounded-lg focus:outline-none  focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition'
-           />
-        </div>
-        <div className='mb-6'>
-          <label className='block text-gray-700 text-sm font-bold mb-2'>
-            Password
-          </label>
-          <input 
-          type='password'
-          placeholder='Enter Your Password'
-          className='w-full px-4 py-2 border rounded-lg focus:outline-none  focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition'
-          />
-        </div>
-        <button
-        type='submit'
-        className='bg-blue-600 hover:bg-red-400 focus:outline-none  focus:ring-2 focus:ring-black focus:border-black text-white font-bold py-2 px-4 rounded w-full'
-        >
-          Login
-
-        </button>
-
+    <div>
+      <h2>Login</h2>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="email"
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+        <button type="submit">Login</button>
       </form>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;
